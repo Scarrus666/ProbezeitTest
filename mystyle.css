@@ -15,6 +15,14 @@
     text-align:center;
 }
 
+.smiley_start
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 250px;
+    color: blue;
+}
+
 .smiley_good
 {
     text-align: center;
@@ -28,5 +36,21 @@
     text-align: center;
     padding: 5px;
     font-size: 250px;
+    color: red;
+}
+
+.under_smiley
+{
+    text-align: center;
+
+}
+
+.text_good
+{
+    color: green;
+}
+
+.text_bad
+{
     color: red;
 }

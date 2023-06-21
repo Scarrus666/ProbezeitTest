@@ -44,9 +44,9 @@
     <div>
 
         <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col center smiley_good">
-                    <i class="bi bi-emoji-smile"></i>
+            <div class="row justify-content-center align-items-center" id="smiley">
+                <div class="col center smiley_start">
+                    <p><i class="bi bi-emoji-smile"></i></p>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col center">
-                    <button id="good" type="button" class="" onclick="goodSmiley();">good!</button>
+                    <button id="good" type="button" class="btn btn-success" onclick="goodSmiley();">good!</button>
                 </div>
 
                 <div class="col center">
@@ -72,11 +72,14 @@
                 </div>
 
                 <div class="col center">
-                    <button id="bad" type="button" class="" onclick="badSmiley();">bad!</button>                
+                    <button id="bad" type="button" class="btn btn-danger" onclick="badSmiley();">bad!</button>                
                 </div>
 
             </div>
         </div>
+    </div>
+
+    <div id="under_smiley" class="under_smiley">
     </div>
 
 
