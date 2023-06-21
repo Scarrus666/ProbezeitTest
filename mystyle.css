@@ -13,6 +13,8 @@
 .footer
 {
     text-align:center;
+    position: sticky;
+    z-index: 100;
 }
 
 .smiley_start
@@ -53,4 +55,12 @@
 .text_bad
 {
     color: red;
+}
+
+body nav
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
 }
