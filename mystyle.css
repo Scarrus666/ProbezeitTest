@@ -1,0 +1,32 @@
+.enabled_header
+{
+    color: blue;
+    text-align: center;
+}
+
+.disabled_header
+{
+    color: grey;
+    text-align: center;
+}
+
+.footer
+{
+    text-align:center;
+}
+
+.smiley_good
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 250px;
+    color: green;
+}
+
+.smiley_bad
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 250px;
+    color: red;
+}
